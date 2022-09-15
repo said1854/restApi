@@ -1,0 +1,25 @@
+GET http://localhost:1854/subscribers
+
+###
+GET http://localhost:1854/subscribers/631845a48910da1d64a355ca
+    
+###
+POST http://localhost:1854/subscribers
+Content-Type: application/json
+
+{
+    "name":"said",
+    "subscribedToChannel": "IBM"
+}
+
+###
+DELETE http://localhost:1854/subscribers/631841efaae21a71bce3f6bd
+
+###
+PATCH http://localhost:1854/subscribers/6322c68d42453d1304f11b70
+Content-Type: application/json
+
+{
+    "subscribedToChannel":"said1854"
+
+}
