@@ -1,3 +1,3 @@
 # restApi
-This is a restApi which connect to mongodb to get subscribers info.
+This is a restApi which connects to mongodb and gets subscribers info.
 using express, mongoose
