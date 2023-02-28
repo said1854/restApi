@@ -5,6 +5,10 @@ const subscriberSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    email: {
+        type: String,
+        required: true
+    },
     subscribedToChannel: {
         type: String,
         required: true
